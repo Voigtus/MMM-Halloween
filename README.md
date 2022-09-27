@@ -46,15 +46,15 @@ There are some parameters you have to overwrite in your config.js. For more info
 | scareInterval | 0       | Interval, when a scare should happen. In ms                                |
 | scareTime     | 0       | How long the scare should be visible on your mirror                        |
 | muted         | true    | Weather the videos you play should be muted                                |
-| bait          | ""        | Your bait, so people start to be interested.                               |
-
+| bait          | ""      | Your bait, so people start to be interested.                               |
 
 ## Stock images
 
 Added images and videos provided by pixabay under [Pixabay license](https://pixabay.com/de/service/license/)
-scare.jpg => https://pixabay.com/de/photos/margerite-g%c3%a4nsebl%c3%bcmchen-blume-wei%c3%9f-729510/
-scare_video.jpg => https://pixabay.com/de/videos/rock-balance-gestapelte-felsen-42470/
-bait.jpg => https://pixabay.com/de/photos/pendel-karte-navigation-kompass-1934311/
+
+- scare.jpg => https://pixabay.com/de/photos/margerite-g%c3%a4nsebl%c3%bcmchen-blume-wei%c3%9f-729510/
+- scare_video.jpg => https://pixabay.com/de/videos/rock-balance-gestapelte-felsen-42470/
+- bait.jpg => https://pixabay.com/de/photos/pendel-karte-navigation-kompass-1934311/
 
 ## Todos
 - Add Motion sensor support
