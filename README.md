@@ -43,8 +43,8 @@ There are some parameters you have to overwrite in your config.js. For more info
 |---------------|---------|----------------------------------------------------------------------------|
 | imageNameList | []      | An array containing all names of your images you want to scare people with |
 | videoNameList | []      | An array containing all names of your videos you want to scare people with |
-| scareInterval | 0       | Interval, when a scare should happen. In ms                                |
-| scareTime     | 0       | How long the scare should be visible on your mirror                        |
+| scareInterval | 0       | Every x ms is a scare played                                               |
+| scareTime     | 0       | How long the scare should be visible on your mirror in ms                  |
 | muted         | true    | Weather the videos you play should be muted                                |
 | bait          | ""      | Your bait, so people start to be interested.                               |
 
@@ -58,7 +58,8 @@ Added images and videos provided by pixabay under [Pixabay license](https://pixa
 
 ## Todos
 - Add Motion sensor support
-- Add Sound installation for Chrome, Firefox, Edge
+- Add Sound installation guide for Chrome, Firefox, Edge
 - Add a docker image
 - Add electron support
 - CSS for video and images, so they are centered and fullscreen
+- Support Youtube videos
